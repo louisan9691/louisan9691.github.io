@@ -1,0 +1,258 @@
+.burger-container
+  position: absolute
+  width: 100px
+  top: 20px
+  right: -50px
+  .burger-3
+    display: block
+    cursor: pointer
+    span
+      background: white
+      display: block
+      width: 30px
+      height: 4px
+      margin-bottom: 3px
+      position: relative
+      top: 0
+      transition: all 0.5s ease-in-out
+    #one
+      background-color: $green-dark
+      width: 45px
+      right: 15px
+      height: 4px
+
+
+#banner
+
+
+.title-font
+  font-family: ivyjournal,sans-serif
+  font-weight: 700
+  font-style: normal
+  color: $black
+  font-size: 2rem
+  @media (min-width: 992px)
+    font-size: 3rem
+
+.body-font
+  font-family: work-sans,sans-serif
+  font-weight: 400
+  font-style: normal
+  color: $black
+  font-size: 1rem
+
+.green-font
+  color: $green-primary
+
+
+body
+  background: $white-f9
+
+
+#banner
+  background-color: $white-f9
+  #design-text
+    height: 80%
+    margin: 50px 0 0 -120px
+
+div#title
+  margin: -50vh 0 0 0
+  padding-left: 5vw
+  @media (min-width: 992px)
+    .col-lg-6
+    .col-xl-6
+      margin-top: -10vh
+
+
+#about-me, #hire-me
+  color: $white-f9
+  border-radius: 30px
+  &:hover
+    background-color: $white-f9
+    color: $green-primary
+    border-color: $green-primary
+#about-me
+  background-color: $green-primary
+#hire-me
+  color: $green-primary
+  border-color: $white-f9
+
+
+.clients
+  background-color: $white-f9
+  margin-top: 20vh
+  .img-thumbnail
+    height: 60px
+    border-color: $white-f9
+    margin: 20px 0 10px 0
+  .monash-icon
+    height: 40px
+  .cardbey-icon, .caterwin-icon
+    height: 70px
+
+@media (min-width: 768px)
+  .clients
+    margin-top: 25vh
+
+.projects
+  height: 100vh
+  background: $yellow
+  h3
+    font-family: ivyjournal,sans-serif
+    font-weight: 700
+    font-style: normal
+    color: $black
+    font-size: 3rem
+    margin: 30px 0 50px 0
+  .case-studies-btn
+    background-color: $green-primary
+    color: $white-f9
+    border-radius: 30px
+    margin: 50px 0
+    &:hover
+      background-color: $yellow
+      color: $green-primary
+      border-color: $green-primary
+  .projects-img
+    img
+      max-height: 60vh
+  .projects-data
+    margin-bottom: 100px
+    .title-font, .body-font
+      font-family: work-sans,sans-serif
+      color: $green-dark
+    .title-font
+      font-size: 3rem
+
+@media (min-width: 1440px)
+  .projects-data
+    margin-top: -200px
+
+
+
+//---- Need a designer? ---------
+
+.need-a-designer
+  background: $orange
+  height: 100vh
+  h3
+    font-family: work-sans,sans-serif
+    font-weight: 700
+    font-style: normal
+    color: $white-f9
+    font-size: 1rem
+    margin: 100px 0 50px 0
+    opacity: 60%
+  .img-work-together
+    margin-bottom: 100px
+  .contact-form
+    width: 80vw
+    padding: 2rem
+    border-radius: 1rem
+    background-color: rgba(249,249,249,0.5)
+    h2
+      font-family: work-sans,sans-serif
+      font-weight: 700
+      font-style: normal
+      color: $white-f9
+      opacity: 100%
+      font-size: 2rem
+      margin-bottom: 2rem
+    label
+      font-family: work-sans,sans-serif
+      font-weight: 400
+      font-style: normal
+      color: $white-f9
+    input::placeholder, textarea::placeholder
+      color: #cfcccc
+    option
+      font-family: work-sans,sans-serif
+      color: $green-primary
+    button
+      font-family: work-sans,sans-serif
+      font-weight: 700
+      font-style: normal
+      color: $white-f9
+      background-color: $green-primary
+      border-color: $green-primary
+      border-radius: 30px
+
+
+@media (min-width: 992px)
+  .need-a-designer
+    height: 80vh
+    h3
+      font-size: 2rem
+    .img-work-together
+      height: 50vh
+      margin-left: 10vw
+    .contact-form
+      margin-right: 50px
+      margin-top: -60vh
+
+
+.social-media
+  background: $orange
+  height: 20rem
+  a
+    font: normal normal 400 1rem work-sans,sans-serif
+    color: $white-f9
+    &:hover
+      text-decoration: line-through
+  .col-4
+    top: 200px
+
+
+
+//Scrolling icon
+.icon-scroll,
+.icon-scroll:before
+  position: absolute
+  left: 50%
+  top: 9vh
+@media (min-width: 1200px)
+  .icon-scroll,
+  .icon-scroll:before
+    top: 18vh
+
+.icon-scroll
+  width: 30px
+  height: 50px
+  box-shadow: inset 0 0 0 1px #cdcdcd
+  border-radius: 25px
+.icon-scroll:before
+  content: ''
+  width: 8px
+  height: 8px
+  background: $green-dark
+  margin-left: -4px
+  top: 8px
+  border-radius: 4px
+  animation-duration: 1.5s
+  animation-iteration-count: infinite
+  animation-name: scroll
+
+@keyframes scroll
+  0%
+    opacity: 1
+  100%
+    opacity: 0
+    +translateY(30px)
+
+
+
+.hvr-grow-shadow
+  display: inline-block
+  vertical-align: middle
+  -webkit-transform: perspective(1px) translateZ(0)
+  transform: perspective(1px) translateZ(0)
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0)
+  -webkit-transition-duration: 0.3s
+  transition-duration: 0.3s
+  -webkit-transition-property: box-shadow, transform
+  transition-property: box-shadow, transform
+
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5)
+  -webkit-transform: scale(1.1)
+  transform: scale(1.1)

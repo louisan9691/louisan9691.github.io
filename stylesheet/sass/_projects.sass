@@ -1,0 +1,99 @@
+
+body
+  color: $white-f9
+  font-size: 1rem
+  font-family: work-sans,sans-serif
+  font-weight: 400
+  font-style: normal
+  background: $white-f9
+
+.navbar
+  font-family: work-sans,sans-serif
+  font-weight: 900
+  font-style: normal
+  position: fixed
+  width: 100%
+  background: #f8f9fa96!important
+  a
+    color: $white-f9
+    .navbar-font
+      margin-right: 10px
+      padding-top: 50px
+      font-size: 1.5rem
+    .logo
+      margin-right: 50px
+
+.project-1, .project-2
+  background-color: $green-dark
+  height: 100vh
+  img
+    margin-top: 10vh
+    @media (min-width: $md)
+      margin-top: 30vh
+    @media (min-width: $lg)
+      height: 40vh
+      margin-top: 30vh
+    @media (min-width: $xl)
+      height: 50vh
+      margin-top: 30vh
+  h5
+    font-size: 0.8rem
+    color: $white-f9
+    line-height: 0.8rem
+  h4
+    font-weight: 900
+  h2
+    font-family: ivyjournal,sans-serif
+    font-weight: 700
+    font-style: normal
+    margin: 30px 0
+  p
+    margin-bottom: 2rem
+  a
+    color: $white-f9
+    text-decoration: none
+    border-radius: 20px
+    padding: 10px
+    &:hover
+      background-color: $white-f9
+      color: $green-primary
+
+.project-2
+  background-color: $orange
+  img
+    margin-top: 10vh
+    @media (min-width: $md)
+      margin-top: 30vh
+    @media (min-width: $lg)
+      height: 40vh
+      margin-top: 30vh
+    @media (min-width: $xl)
+      height: 50vh
+      margin-top: 30vh
+
+
+
+.project-1-description, .project-2-description
+  top: -25vh
+  @media (min-width: $md)
+    height: 50vh
+    top: 30vh
+    text-align: right
+    padding-right: 5vh
+  @media (min-width: $lg)
+    top: 30vh
+  @media (min-width: $xl)
+    top: 40vh
+
+
+//Social media
+.social-media
+  background: $orange
+  height: 5rem
+  a
+    font: normal normal 400 1rem work-sans,sans-serif
+    color: $white-f9
+    &:hover
+      text-decoration: line-through
+  .col-4
+    top: 30px

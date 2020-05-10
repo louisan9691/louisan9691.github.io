@@ -1,0 +1,196 @@
+body {
+  color: #F9F9F9;
+  font-size: 1rem;
+  font-family: work-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #F9F9F9; }
+
+.navbar {
+  font-family: work-sans, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  position: fixed;
+  width: 100%;
+  background: #f8f9fa96 !important; }
+  .navbar a {
+    color: #F9F9F9; }
+    .navbar a .navbar-font {
+      margin-right: 10px;
+      padding-top: 50px;
+      font-size: 1.5rem; }
+    .navbar a .logo {
+      margin-right: 50px; }
+
+.project-1, .project-2 {
+  background-color: #1D9BA6;
+  height: 100vh; }
+  .project-1 img, .project-2 img {
+    margin-top: 10vh; }
+    @media (min-width: 768px) {
+      .project-1 img, .project-2 img {
+        margin-top: 30vh; } }
+    @media (min-width: 992px) {
+      .project-1 img, .project-2 img {
+        height: 40vh;
+        margin-top: 30vh; } }
+    @media (min-width: 1200px) {
+      .project-1 img, .project-2 img {
+        height: 50vh;
+        margin-top: 30vh; } }
+  .project-1 h5, .project-2 h5 {
+    font-size: 0.8rem;
+    color: #F9F9F9;
+    line-height: 0.8rem; }
+  .project-1 h4, .project-2 h4 {
+    font-weight: 900; }
+  .project-1 h2, .project-2 h2 {
+    font-family: ivyjournal, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 30px 0; }
+  .project-1 p, .project-2 p {
+    margin-bottom: 2rem; }
+  .project-1 a, .project-2 a {
+    color: #F9F9F9;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px; }
+    .project-1 a:hover, .project-2 a:hover {
+      background-color: #F9F9F9;
+      color: #42A5AA; }
+
+.project-2 {
+  background-color: #FC8874; }
+  .project-2 img {
+    margin-top: 10vh; }
+    @media (min-width: 768px) {
+      .project-2 img {
+        margin-top: 30vh; } }
+    @media (min-width: 992px) {
+      .project-2 img {
+        height: 40vh;
+        margin-top: 30vh; } }
+    @media (min-width: 1200px) {
+      .project-2 img {
+        height: 50vh;
+        margin-top: 30vh; } }
+
+.project-1-description, .project-2-description {
+  top: -25vh; }
+  @media (min-width: 768px) {
+    .project-1-description, .project-2-description {
+      height: 50vh;
+      top: 30vh;
+      text-align: right;
+      padding-right: 5vh; } }
+  @media (min-width: 992px) {
+    .project-1-description, .project-2-description {
+      top: 30vh; } }
+  @media (min-width: 1200px) {
+    .project-1-description, .project-2-description {
+      top: 40vh; } }
+
+.social-media {
+  background: #FC8874;
+  height: 5rem; }
+  .social-media a {
+    font: normal normal 400 1rem work-sans, sans-serif;
+    color: #F9F9F9; }
+    .social-media a:hover {
+      text-decoration: line-through; }
+  .social-media .col-4 {
+    top: 30px; }
+
+footer {
+  height: 100px; }
+  footer .footer {
+    z-index: -1;
+    background-color: #F9F9F9; }
+    footer .footer p {
+      font-family: work-sans, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #4A4E4D;
+      font-size: 0.8rem;
+      margin-bottom: 5px; }
+    footer .footer .copyright img {
+      filter: invert(100%); }
+
+.navbar {
+  font-family: work-sans, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  position: fixed;
+  width: 100%;
+  background: #f8f9fa96 !important;
+  color: #F9F9F9; }
+
+.navbar-font {
+  margin-right: 10px;
+  padding-top: 50px;
+  font-size: 1.5rem;
+  color: #F9F9F9; }
+
+.text-muted {
+  color: #F9F9F9 !important; }
+
+.logo {
+  margin-right: 50px;
+  filter: invert(100%); }
+
+.hamburger-menu {
+  position: absolute;
+  right: 0;
+  margin-right: 20px; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+  z-index: 100; }
+
+.sidenav a {
+  font-family: ivyjournal, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  margin-top: 10vh; }
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  text-decoration: line-through;
+  text-decoration-color: #1D9BA6;
+  text-decoration-style: wavy;
+  text-decoration-line: underline; }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 4vh;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 50px; }
+  .sidenav .closebtn:hover {
+    text-decoration: none; }
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+
+  .sidenav a {
+    font-size: 18px; } }
+
+/*# sourceMappingURL=projects-main.css.map */
